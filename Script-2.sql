@@ -56,7 +56,7 @@ select * from albumm;
 
 
 select * from bands 
-right join bands on bands.id = albums.band_id;
+right join bands on bands.id = albumm.band_id;
 
 
 select sum(release_year) from albumm;
